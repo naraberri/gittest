@@ -8,7 +8,7 @@ public class CalEx {
 		Scanner scanner = new Scanner(System.in);
 		int i = scanner.nextInt();
 		
-		System.out.println("i¸¦ 3À¸·Î ³ª´©¾î¼­ ³ª¸ÓÁö°¡ 0ÀÌ ³ª¿À¸é »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ¼ıÀÚ´Â 3ÀÇ ¹è¼öÀÔ´Ï´Ù");
+		System.out.println("ië¥¼ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ì„œ ë‚˜ë¨¸ì§€ê°€ 0ì´ ë‚˜ì˜¤ë©´ ì‚¬ìš©ìê°€ ì…ë ¥í•œ ìˆ«ìëŠ” 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤");
 		System.out.println("i % 3 = " + (i % 3));
 		
 	}

@@ -4,6 +4,6 @@ public class WomanClass {
 
 	public WomanClass() {
 		
-		System.out.println("¿©±â´Â WomanClass »ý¼ºÀÚ ÀÔ´Ï´Ù");
+		System.out.println("ì—¬ê¸°ëŠ” WomanClass ìž…ë‹ˆë‹¤");
 	}
 }

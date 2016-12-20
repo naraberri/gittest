@@ -12,14 +12,13 @@ public class SwitchEx {
 		
 		switch (result) {
 		case 0:
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â Â¦¼ö ÀÔ´Ï´Ù.");
+			System.out.println("ì…ë ¥í•˜ì‹  ìˆ«ìëŠ” ì§ìˆ˜ ì…ë‹ˆë‹¤.");
 			break;
 		case 1:
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â È¦¼ö ÀÔ´Ï´Ù.");
+			System.out.println("ì…ë ¥í•˜ì‹  ìˆ«ìëŠ” í™€ìˆ˜ ì…ë‹ˆë‹¤.");
 			break;
-
 		default:
-			System.out.println("¸ğ¸£°Ú½À´Ï´Ù. ¤»¤»");
+			System.out.println("ëª¨ë¥´ê² ìŠµë‹ˆë‹¤. ã…‹ã…‹");
 			break;
 		}
 		*/
@@ -30,14 +29,14 @@ public class SwitchEx {
 		
 		switch (r) {
 		case 0:
-			System.out.println("Â¦¼ö ÀÔ´Ï´Ù.");
+			System.out.println("ì§ìˆ˜ ì…ë‹ˆë‹¤.");
 			break;
 		case 1:
-			System.out.println("È¦¼ö ÀÔ´Ï´Ù.");
+			System.out.println("í™€ìˆ˜ ì…ë‹ˆë‹¤.");
 			break;
 			
 		default:
-			System.out.println("¸ğ¸£°Ú½À´Ï´Ù.");
+			System.out.println("ëª¨ë¥´ê² ìŠµë‹ˆë‹¤.");
 			break;
 		}
 		

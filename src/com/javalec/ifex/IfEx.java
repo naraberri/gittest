@@ -8,11 +8,11 @@ public class IfEx {
 		int h = 10;
 
 		if (i > j) {
-			System.out.println("i°¡ jº¸´Ù Å®´Ï´Ù.");
+			System.out.println("iê°€ jë³´ë‹¤ í½ë‹ˆë‹¤.");
 		}
 
 		if (i == h) {
-			System.out.println("i¿Í h´Â °°½À´Ï´Ù");
+			System.out.println("iì™€ hëŠ” ê°™ìŠµë‹ˆë‹¤");
 		}
 	}
 

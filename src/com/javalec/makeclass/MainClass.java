@@ -8,7 +8,7 @@ public class MainClass {
 		WomanClass wc = new WomanClass();
 		WomanClass wc1 = new WomanClass();
 		
-		System.out.println(wc.equals(wc1));//°°Àº Å¬·¡½º¿¡¼­ ¸¸µé¾îÁ³Áö¸¸ µ¶¸³µÈ °´Ã¼ÀÌ±â¶§¹®¿¡ false°¡ ³ª¿Â´Ù
+		System.out.println(wc.equals(wc1));//ê°™ì€ í´ë˜ìŠ¤ì—ì„œ ë§Œë“¤ì–´ì¡Œì§€ë§Œ ë…ë¦½ëœ ê°ì²´ì´ê¸°ë•Œë¬¸ì— falseê°€ ë‚˜ì˜¨ë‹¤
 */
 		ManClass mc = new ManClass();
 		ManClass mc1 = new ManClass(15,160,50,"010-0000-0000");

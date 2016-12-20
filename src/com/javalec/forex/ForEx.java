@@ -8,7 +8,7 @@ public class ForEx {
 		for (int i = 0; i < 10; i++) {
 			
 			int result = i + 10;
-			System.out.println("i´Â " + i + "ÀÔ´Ï´Ù. \n" + "10 + i = " + result);
+			System.out.println("iëŠ” " + i + "ìž…ë‹ˆë‹¤. \n" + "10 + i = " + result);
 		}
 		
 	}

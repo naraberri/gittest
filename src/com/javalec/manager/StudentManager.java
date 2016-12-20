@@ -11,18 +11,18 @@ public class StudentManager {
 		
 		StudentManager studentManager = new StudentManager();
 		
-		studentManager.addStudent("È«±æµ¿", 22, 20123487, "¿µ±Ø¿µÈ­");
-		studentManager.addStudent("È«±æ¼ø", 24, 20106428, "¼öÇĞ°ú");
-		studentManager.addStudent("ÀÌÀº°æ", 21, 20135788, "±¹¹®°ú");
-		studentManager.addStudent("±èÃ¶¼ö", 23, 20114221, "Ã¼À°°ú");
-		studentManager.addStudent("±è¼øÈñ", 26, 20089883, "¹«¿ë°ú");
+		studentManager.addStudent("í™ê¸¸ë™", 22, 20123487, "ì˜ê·¹ì˜í™”");
+		studentManager.addStudent("í™ê¸¸ìˆœ", 24, 20106428, "ìˆ˜í•™ê³¼");
+		studentManager.addStudent("ì´ì€ê²½", 21, 20135788, "êµ­ë¬¸ê³¼");
+		studentManager.addStudent("ê¹€ì² ìˆ˜", 23, 20114221, "ì²´ìœ¡ê³¼");
+		studentManager.addStudent("ê¹€ìˆœí¬", 26, 20089883, "ë¬´ìš©ê³¼");
 		
 		System.out.println(studentManager.students.get(0).getName());
 		System.out.println(studentManager.students.get(0).getAge());
 		System.out.println(studentManager.students.get(0).getStudentNum());
 		System.out.println(studentManager.students.get(0).getMajor());
 		
-		studentManager.students.get(0).updateInfo(1, "È«±æ¶Ë");
+		studentManager.students.get(0).updateInfo(1, "í™ê¸¸ë˜¥");
 		
 		System.out.println(studentManager.students.get(0).getName());
 		
@@ -32,6 +32,6 @@ public class StudentManager {
 	private void addStudent(String name, int age, int studentNum, String major) {
 		// TODO Auto-generated method stub
 		students.add(new Student(name, age, studentNum, major));
-		System.out.println(name + " ÇĞ»ı Á¤º¸ ÀÔ·Â ¼º°ø!!");
+		System.out.println(name + " í•™ìƒ ì •ë³´ ì…ë ¥ ì„±ê³µ!!");
 	}
 }

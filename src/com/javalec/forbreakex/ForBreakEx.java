@@ -5,8 +5,8 @@ public class ForBreakEx {
 	public static void main(String[] args) {
 		
 		for (int i = 0; i < 5; i++) {
-			System.out.println("i´Â " + i + "ÀÔ´Ï´Ù.");
-			//continue; //¹ØÀ¸·Î ±¸¹®ÀÌ ´õ ÀÌ»ó ³»·Á°¥¼ö°¡¾ø¾î¼­ ¿À·ù°¡³²
+			System.out.println("iëŠ” " + i + "ìž…ë‹ˆë‹¤.");
+			//continue; //ë°‘ìœ¼ë¡œ êµ¬ë¬¸ì´ ë” ì´ìƒ ë‚´ë ¤ê°ˆìˆ˜ê°€ì—†ì–´ì„œ ì˜¤ë¥˜ê°€ë‚¨
 			if(i >= 3) break;
 		}
 		

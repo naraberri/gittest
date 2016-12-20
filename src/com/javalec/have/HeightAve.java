@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HeightAve {
 	public static void main(String[] args) {
 
-		String[] iArrName = { "¿µÈñ", "Ã¶¼ö", "±æµ¿", "¿µ¼ö", "¸»ÀÚ" };
+		String[] iArrName = { "ì˜í¬", "ì² ìˆ˜", "ê¸¸ë™", "ì˜ìˆ˜", "ë§ì" };
 		int[] iArr = new int[5];
 		int totalHeight = 0;
 		int maxH = 0;
@@ -16,20 +16,20 @@ public class HeightAve {
 		Scanner scanner = new Scanner(System.in);
 
 		for (int i = 0; i < iArr.length; i++) {
-			System.out.print(iArrName[i]+"Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä. :");
+			System.out.print(iArrName[i]+"í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”. :");
 			iArr[i] = scanner.nextInt();
 			totalHeight = totalHeight+iArr[i];
-		}//for¹® Á¾·á
+		}//forë¬¸ ì¢…ë£Œ
 		
-		System.out.println("ÇĞ»öµéÀÇ Æò±Õ ½ÅÀåÀº" + (totalHeight/iArrName.length) + "ÀÔ´Ï´Ù ");
+		System.out.println("í•™ìƒ‰ë“¤ì˜ í‰ê·  ì‹ ì¥ì€" + (totalHeight/iArrName.length) + "ì…ë‹ˆë‹¤ ");
 		
 		for (int i = 0; i < iArr.length; i++) {
 			if(iArr[i] > maxH){
 				maxH = iArr[i];
 				maxIndex = i;
 			}
-		}//for¹® Á¾·á
-		System.out.println("°¡Àå Å« ÇĞ»ıÀº" + iArrName[maxIndex] + "ÀÔ´Ï´Ù");
+		}//forë¬¸ ì¢…ë£Œ
+		System.out.println("ê°€ì¥ í° í•™ìƒì€" + iArrName[maxIndex] + "ì…ë‹ˆë‹¤");
 		
 		minH = maxH;
 		for (int i = 0; i < iArr.length; i++) {
@@ -38,8 +38,8 @@ public class HeightAve {
 				minIndex = 1;
 			}
 			
-		}//for¹® Á¾·á
-		System.out.println("°¡Àå ÀÛÀº ÇĞ»ıÀº" +iArrName[minIndex]+"ÀÔ´Ï´Ù");
+		}//forë¬¸ ì¢…ë£Œ
+		System.out.println("ê°€ì¥ ì‘ì€ í•™ìƒì€" +iArrName[minIndex]+"ì…ë‹ˆë‹¤");
 				
 		
 	}

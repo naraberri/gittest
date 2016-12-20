@@ -9,15 +9,15 @@ public class IfElseEx {
 		int k = 30;
 		
 		if(i>j){
-			System.out.println("i´Â jº¸´Ù"+(i-j)+ "¸¸Å­ ´õ Å®´Ï´Ù");
+			System.out.println("iëŠ” jë³´ë‹¤"+(i-j)+ "ë§Œí¼ ë” í½ë‹ˆë‹¤");
 		}else{
-			System.out.println("j´Â iº¸´Ù"+(j-i)+ "¸¸Å­ ´õ Å®´Ï´Ù");
+			System.out.println("jëŠ” ië³´ë‹¤"+(j-i)+ "ë§Œí¼ ë” í½ë‹ˆë‹¤");
 		}
 		
 		if((i+j) == h){
-			System.out.println("i¿ÍjÀÇ ÇÕÀº h¿Í °°½À´Ï´Ù");
+			System.out.println("iì™€jì˜ í•©ì€ hì™€ ê°™ìŠµë‹ˆë‹¤");
 		}else{
-			System.out.println("i¿ÍjÀÇ ÇÕÀº h¿Í °°Áö ¾Ê½À´Ï´Ù");
+			System.out.println("iì™€jì˜ í•©ì€ hì™€ ê°™ì§€ ì•ŠìŠµë‹ˆë‹¤");
 		}
 
 	}

@@ -6,39 +6,39 @@ public class AverageClass {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("±¹¾î Á¡¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä. ");
-		int kor = scanner.nextInt();		// ±¹¾î Á¡¼ö
-		System.out.print("¿µ¾î Á¡¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä. ");
-		int eng = scanner.nextInt();		// ¿µ¾î Á¡¼ö
-		System.out.print("¼öÇĞ Á¡¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä. ");
-		int met = scanner.nextInt();		// ¼öÇĞ Á¡¼ö
+		System.out.print("êµ­ì–´ ì ìˆ˜ë¥¼ ì…ë ¥ í•˜ì„¸ìš”. ");
+		int kor = scanner.nextInt();		// êµ­ì–´ ì ìˆ˜
+		System.out.print("ì˜ì–´ ì ìˆ˜ë¥¼ ì…ë ¥ í•˜ì„¸ìš”. ");
+		int eng = scanner.nextInt();		// ì˜ì–´ ì ìˆ˜
+		System.out.print("ìˆ˜í•™ ì ìˆ˜ë¥¼ ì…ë ¥ í•˜ì„¸ìš”. ");
+		int met = scanner.nextInt();		// ìˆ˜í•™ ì ìˆ˜
 		
 		double ave = (kor + eng + met) / 3;
 		
-		System.out.println("Æò±Õ Á¡¼ö´Â " + ave + "ÀÔ´Ï´Ù.");
+		System.out.println("í‰ê·  ì ìˆ˜ëŠ” " + ave + "ì…ë‹ˆë‹¤.");
 		
 		if(kor > ave) {
-			System.out.println("±¹¾î Á¡¼ö´Â Æò±Õº¸´Ù ³ô½À´Ï´Ù.");
+			System.out.println("êµ­ì–´ ì ìˆ˜ëŠ” í‰ê· ë³´ë‹¤ ë†’ìŠµë‹ˆë‹¤.");
 		} else if (kor < ave){
-			System.out.println("±¹¾î Á¡¼ö´Â Æò±Õº¸´Ù ³·½À´Ï´Ù.");
+			System.out.println("êµ­ì–´ ì ìˆ˜ëŠ” í‰ê· ë³´ë‹¤ ë‚®ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("±¹¾î Á¡¼ö´Â Æò±Õ ÀÔ´Ï´Ù.");
+			System.out.println("êµ­ì–´ ì ìˆ˜ëŠ” í‰ê·  ì…ë‹ˆë‹¤.");
 		}
 		
 		if(eng > ave) {
-			System.out.println("¿µ¾î Á¡¼ö´Â Æò±Õº¸´Ù ³ô½À´Ï´Ù.");
+			System.out.println("ì˜ì–´ ì ìˆ˜ëŠ” í‰ê· ë³´ë‹¤ ë†’ìŠµë‹ˆë‹¤.");
 		} else if (eng < ave){
-			System.out.println("¿µ¾î Á¡¼ö´Â Æò±Õº¸´Ù ³·½À´Ï´Ù.");
+			System.out.println("ì˜ì–´ ì ìˆ˜ëŠ” í‰ê· ë³´ë‹¤ ë‚®ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("¿µ¾î Á¡¼ö´Â Æò±Õ ÀÔ´Ï´Ù.");
+			System.out.println("ì˜ì–´ ì ìˆ˜ëŠ” í‰ê·  ì…ë‹ˆë‹¤.");
 		}
 		
 		if(met > ave) {
-			System.out.println("¼öÇĞ Á¡¼ö´Â Æò±Õº¸´Ù ³ô½À´Ï´Ù.");
+			System.out.println("ìˆ˜í•™ ì ìˆ˜ëŠ” í‰ê· ë³´ë‹¤ ë†’ìŠµë‹ˆë‹¤.");
 		} else if (met < ave){
-			System.out.println("¼öÇĞ Á¡¼ö´Â Æò±Õº¸´Ù ³·½À´Ï´Ù.");
+			System.out.println("ìˆ˜í•™ ì ìˆ˜ëŠ” í‰ê· ë³´ë‹¤ ë‚®ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("¼öÇĞ Á¡¼ö´Â Æò±Õ ÀÔ´Ï´Ù.");
+			System.out.println("ìˆ˜í•™ ì ìˆ˜ëŠ” í‰ê·  ì…ë‹ˆë‹¤.");
 		}
 		
 	}

@@ -6,13 +6,13 @@ public class IfElseIfEx {
 		int seoulLunchPrice = 5000;
 		
 		if(seoulLunchPrice >= 9000){
-			System.out.println("¼­¿ï ¹°°¡ ¿Õ ºñ½Î³×¿ä");
+			System.out.println("ì„œìš¸ ë¬¼ê°€ ì™• ë¹„ì‹¸ë„¤ìš”");
 		}else if(seoulLunchPrice >= 7000){
-			System.out.println("¼­¿ï ¹°°¡ Á¶±İ ºñ½Î³×¿ä");
+			System.out.println("ì„œìš¸ ë¬¼ê°€ ì¡°ê¸ˆ ë¹„ì‹¸ë„¤ìš”");
 		}else if(seoulLunchPrice >= 5000){
-			System.out.println("¼­¿ï ¹°°¡ Àû´ç ÇÏ³×¿ä");
+			System.out.println("ì„œìš¸ ë¬¼ê°€ ì ë‹¹ í•˜ë„¤ìš”");
 		}else{
-			System.out.println("¼­¿ï ¹°°¡ Àú·Å ÇÏ³×¿ä");
+			System.out.println("ì„œìš¸ ë¬¼ê°€ ì €ë ´ í•˜ë„¤ìš”");
 		}
 	}
 }

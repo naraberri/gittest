@@ -7,41 +7,41 @@ public class CalculationEx {
 		int j = 3;
 		int h = 5;
 
-		System.out.println("=======»ê¼ú¿¬»êÀÚ=======");
-		System.out.println("µ¡¼À :" + (i + j)); // 13
-		System.out.println("µ¡¼À :" + (i - j)); // 7
-		System.out.println("µ¡¼À :" + (i * j)); // 30
-		System.out.println("µ¡¼À :" + (i / j)); // 3
-		System.out.println("µ¡¼À :" + (i % j)); // 1
+		System.out.println("=======ì‚°ìˆ ì—°ì‚°ì=======");
+		System.out.println("ë§ì…ˆ :" + (i + j)); // 13
+		System.out.println("ë§ì…ˆ :" + (i - j)); // 7
+		System.out.println("ë§ì…ˆ :" + (i * j)); // 30
+		System.out.println("ë§ì…ˆ :" + (i / j)); // 3
+		System.out.println("ë§ì…ˆ :" + (i % j)); // 1
 
-		System.out.println("========ÀÚµ¿ Áõ°¨ ¿¬»êÀÚ=====");
+		System.out.println("========ìë™ ì¦ê° ì—°ì‚°ì=====");
 		i++; // i = i+1
-		System.out.println("Áß°¡ :" + i);
+		System.out.println("ì¤‘ê°€ :" + i);
 		j--; // j = j-1
-		System.out.println("°¨¼Ò :" + j);
+		System.out.println("ê°ì†Œ :" + j);
 
-		System.out.println("====µ¿µî ºñ±³, °ü°è¿¬»êÀÚ =====");
+		System.out.println("====ë™ë“± ë¹„êµ, ê´€ê³„ì—°ì‚°ì =====");
 		System.out.println("i ==j >>" + (i == j));
 		System.out.println("i !=j >>" + (i != j));
 		System.out.println("i > j >>" + (i > j));
 		System.out.println("i > j >>" + (i < j));
 
-		System.out.println("==========³í¸®¿¬»êÀÚ=======");
+		System.out.println("==========ë…¼ë¦¬ì—°ì‚°ì=======");
 		System.out.println("&&(and) >>" + (i > j && i > h));
 		System.out.println("&&(and) >>" + (i > j && i < h));
 		System.out.println("||(or) >>" + (i > j || i < h));
 		System.out.println("||(or) >>" + (i > j || i > h));
 		
-		System.out.println("=====»ïÇ× ¿¬»êÀÚ========");
+		System.out.println("=====ì‚¼í•­ ì—°ì‚°ì========");
 		int result = h !=5 ? 1:2;
-		System.out.println("»ï»ó¿¬»ê °á°ú(result)" + result);
+		System.out.println("ì‚¼ìƒì—°ì‚° ê²°ê³¼(result)" + result);
 		
-		System.out.println("=======ÇÒ´ç ¿¬»êÀÚ=======");
+		System.out.println("=======í• ë‹¹ ì—°ì‚°ì=======");
 		System.out.println("h = " + h);
 		h = 1;
 		System.out.println("h = " + h);
 		
-		System.out.println("=======ÁÙ¿© ¾²´Â ¿¬»êÀÚ=======");
+		System.out.println("=======ì¤„ì—¬ ì“°ëŠ” ì—°ì‚°ì=======");
 
 		i = i+100;
 		System.out.println(" i =" + i);
