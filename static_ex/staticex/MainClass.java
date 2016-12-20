@@ -20,6 +20,7 @@ public class MainClass {
 		
 		System.out.println("PapaPouch.money : " + PapaPouch.MONEY);
 		
+		
 	}
 	
 }
